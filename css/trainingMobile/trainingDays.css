@@ -1,0 +1,160 @@
+﻿html{
+	height:100%;
+	font-size:20px;
+	font-family:arial;
+	color:#fff;
+}
+
+body{
+	min-height:100%;
+	display:flex;
+	flex-flow:column nowrap;
+	background:#000;
+}
+
+h1{
+	display:block;
+	width:100%;
+	height:content-fit;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:11;
+	color:#000;
+	font-size:2rem;
+	text-align:center;
+	margin:1vh auto;
+}
+
+header{
+	position:relative;
+	margin:0vh 0vh 20vh 0vh;
+}
+
+.header1{
+	width:100%;
+	height:26vh;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
+	background:rgba(255, 255, 255, 1);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 93% 47%, 81% 76%, 68% 35%, 58% 79%, 51% 47%, 43% 70%, 33% 42%, 17% 77%, 8% 59%, 0 84%);
+	
+}
+
+.header2{
+	width:100%;
+	height:26vh;
+	position:absolute;
+	top:1vh;
+	left:0;
+	z-index:1;
+	background:rgba(173, 216, 230, 0.5);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 93% 47%, 81% 76%, 68% 35%, 58% 79%, 51% 47%, 43% 70%, 33% 42%, 17% 77%, 8% 59%, 0 84%);
+}
+
+
+.headerContainer{
+	position:relative;
+	z-index:11;
+}
+
+main{
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content:center;
+	align-items:center;
+	flex-grow:1;
+}
+
+.excerciseButton{
+	width:90%;
+	height:fit-content;
+	color:#fff;
+	border:4px solid #fff;
+	border-radius:10px;
+	box-shadow:0px 0px 30px 3px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-items:center;
+	font-size:1.4rem;
+	text-align:center;
+	text-shadow:0px 0px 10px #fff;
+}
+
+.listNumbers{
+	border:1px solid #fff;
+	border-top:transparent;
+	width:86%;
+	height:0px;
+	margin: 0px auto 10px auto;
+	padding:0px 10px 0px 10px;
+	overflow:hidden;
+	display:flex;
+	flex-flow:column nowrap;
+}
+
+.container{
+	width:100%;
+	height:fit-content;
+}
+
+.excerciseRow{
+	display:flex;
+	flex-flow:row nowrap;
+	align-items:center;
+	justify-content:flex-end;
+	width:100%;
+	margin:5px 0px 5px 0px;
+}
+
+.numberOfRepeating{
+	flex-grow:1;
+	
+}
+
+.weight{
+	width:fit-content;
+	min-width:30%;
+}
+
+.check{
+	width:30px;
+	height:30px;
+	margin:0px 0px 0px 0px;
+}
+
+footer{
+	position:relative;
+	margin:80px 0px 0px 0px;
+}
+
+.footer1{
+	width:100%;
+	height:7vh;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:10;
+	background:rgba(255, 255, 255, 1);
+	clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 93% 53%, 81% 0%, 68% 65%, 58% 16%, 51% 53%, 43% 24%, 33% 58%, 17% 11%, 8% 41%, 0% 0%);
+	
+}
+
+.footer2{
+	width:100%;
+	height:7vh;
+	position:absolute;
+	bottom:1vh;
+	left:0;
+	z-index:1;
+	background:rgba(173, 216, 230, 0.5);
+	clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 93% 53%, 81% 0%, 68% 65%, 58% 16%, 51% 53%, 43% 24%, 33% 58%, 17% 11%, 8% 41%, 0% 0%);
+}
+
+.footerContainer{
+	position:relative;
+	z-index:11;
+}
